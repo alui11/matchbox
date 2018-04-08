@@ -8,7 +8,7 @@ import Spars from './Spars';
 import Signups from './Signups';
 import Bracket from './Bracket';
 import Stats from './Stats';
-import registerServiceWorker from './registerServiceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
     <BrowserRouter>
@@ -22,4 +22,4 @@ ReactDOM.render((
     </div>
     </BrowserRouter>
 ), document.getElementById('root'));
-registerServiceWorker();
+//registerServiceWorker();
